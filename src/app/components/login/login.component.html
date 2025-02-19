@@ -1,1 +1,33 @@
-<p>login works!</p>
+    <div class="social">
+        <a href="https://wa.me/573005743054?text=Hola%20quiero%20más%20información"><img src="whatsapp.png" id="whatsapp" alt="img whatsapp"></a>
+        <p>3005743054</p>
+    </div>
+    <div class="navegacion">
+        <nav>
+            <ul>
+                <li><img src="estetoscopio.png" alt="" id="estetoscopio"></li>
+                <li><a href="http:#">Inicio</a></li>
+                <li><a href="http:#">Quienes somos</a></li>
+                <li><a href="http:#">Nuestros servicios</a></li>
+                <li><a href="http:#">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-content">
+        <div class="contain">
+            <img src="gato.jpg" alt="gato">
+        </div>
+        <div class="login">
+            <h2 class="text-center">Ingresa a tu cuenta</h2>
+            <form (ngSubmit)="login()">
+                <label for="email">Email:</label>
+                <input type="email" id="email" [(ngModel)]="email" name="email" required />
+              
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" [(ngModel)]="password" name="password" required />
+              
+                <input type="submit" value="Iniciar sesion">
+              
+              </form>
+        </div>
+    </div>

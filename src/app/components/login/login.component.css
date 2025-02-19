@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #09e91c;
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+    height: 50px;
+}
+
+.social p {
+    margin: 0;
+}
+
+.social img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+ul :hover {
+    color: #1d1dce;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 23px;
+    color: #26cd;
+    font-weight: 40px;
+}
+
+#estetoscopio {
+    width: 55px;
+    height: 55px;
+}
+
+.main-content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.contain {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 90%;
+}
+
+.contain img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.login {
+    width: 450px; 
+    background-color: #f3f3f3;
+    padding: 20px;
+    margin-left: 150px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar contenido dentro del div */
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 80%; 
+}
+
+.login input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login input[type="submit"] {
+    background-color: #00004F;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.login input:hover[type="submit"] {
+    background-color: #1d1dce;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-container input {
+    margin-right: 5px;
+}
+
